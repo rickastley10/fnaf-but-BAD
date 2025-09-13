@@ -97,7 +97,9 @@ class Toplevel1:
 
             global door_LD
             global photo_locationLD
-            photo_locationLD = os.path.join(_location,"./office_LD.png")
+            #office_LD
+            #ldtest
+            photo_locationLD = os.path.join(_location,"./ldtest.png")
             door_LD = tk.PhotoImage(file=photo_locationLD)
             if _debug:
                 print('fnaf_support.door1')
@@ -142,7 +144,9 @@ class Toplevel1:
             global door_LD
             global photo_locationLD
             global door_RD
-            photo_locationRD = os.path.join(_location,"./office_RD.png")
+            #office_RD
+            #rdtest
+            photo_locationRD = os.path.join(_location,"./rdtest.png")
             door_RD = tk.PhotoImage(file=photo_locationRD)
             
 
@@ -282,7 +286,7 @@ class Toplevel1:
                             print("monster movement")
             else:
                 print("loop")
-                Toplevel1.monster_movement(self=tk)
+                #Toplevel1.monster_movement(self=tk)
                 print("monster movement")
 
 
